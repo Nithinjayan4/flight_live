@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(251,199,127);
+}
+h1{
+    padding: 10px;
+
+}
+.departures{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.departures table{
+    background-color: black;
+    text-align: left;
+}
+
+
