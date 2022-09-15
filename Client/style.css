@@ -10,14 +10,14 @@ body{
     justify-content: center;
     height: 100vh;
     align-items: center;
-    background-color: rgb(251,199,127);
+    background-color: purple;
 }
 h1{
     padding: 10px;
 
 }
 .departures{
-    background-color: black;
+    background-color:black;
     border-radius: 10px;
     padding: 10px;
 }
@@ -25,5 +25,42 @@ h1{
     background-color: black;
     text-align: left;
 }
+.departures table div {
+    border: solid 4px rgb(26,26,26);
+    background-color: black;
+    min-width: 20px;
+    float: left;
+}
+.flip{
+    animation: 0.5s linear flipping;
+}
+@keyframes flipping {
+    0%{
+        transform: rotateX(0deg);
+    }
+    50%{
+        transform: rotateX(90deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+
+}
+#time{
+    width: 160px;
+}
+#destination{
+    width: 700px;
+}
+#flight{
+    width: 205px;
+}
+#gate{
+    width: 135px;
+}
+#remarks{
+    width: 260px;
+}
+
 
 
